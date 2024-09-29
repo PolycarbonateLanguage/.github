@@ -11,6 +11,25 @@ Variables in polycarbonate can only consist of singular letters. For example: `a
 β = 0 + ... + 0 + 3 + 0 + ... + 0
 ```
 (Yes, those infinite series of zeroes is required on both the left and the right hand side).
+
+In this example, `3` is defined as:
+```apl
+3 = 0 + ... + 0 + 1 + 2 + 0 + ... + 0
+```
+
+with `1` being defined as:
+```apl
+0 + ... + 0 + 1 + 0 + 0 + ... + 0
+```
+and `2` beign defined as:
+```
+0 + ... + 0 + 1 + 1 + 0 + ... + 0
+```
+
+We then define both those 1's to be defined using our definition of `1` above.
+
+
+
 <br>
 
 A builtin function is allowed to check the type of this:<br>
