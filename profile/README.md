@@ -21,13 +21,13 @@ with `1` being defined as:
 ```apl
 0 + ... + 0 + 1 + 0 + 0 + ... + 0
 ```
-and `2` beign defined as:
-```
+and `2` being defined as:
+```apl
 0 + ... + 0 + 1 + 1 + 0 + ... + 0
 ```
 
 We then define both those 1's to be defined using our definition of `1` above.
-
+This definition is required to be written in order for the reader to understand the concept of recursion in this language.
 
 
 <br>
