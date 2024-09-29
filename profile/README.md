@@ -35,4 +35,8 @@ let a(t) ->
 # Passing arguments is also simple:
 
 α = a(3) # α is binded by the value of 9.
-```
+```<br>
+
+## As always, this isn't final.
+Just like nature, things change. With the speed in which these changes will (or will not) occur being unknown. Just like nature, that's the beauty of new languages, you never know what will succeed and what will fail. Hopefully, once I transfer from community college - I'd have met some other individuals who share
+a similar passion to this language, like I do.
