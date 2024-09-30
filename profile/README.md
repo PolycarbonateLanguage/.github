@@ -11,6 +11,13 @@ Variables in polycarbonate can only consist of singular letters. For example: `a
 β = 0 + ... + 0 + 3 + 0 + ... + 0
 ```
 (Yes, those infinite series of zeroes is required on both the left and the right hand side).
+<br>
+
+**As of 9/30/24, we have allowed polycarbonate to express variables using the Hebrew alphabet. Meaning**
+```apl
+שׁ = 0 + ... + 0 + 3 + 0 + ... + 0
+```
+**is entirely valid.**<br>
 
 In this example, `3` is defined as:
 ```apl
