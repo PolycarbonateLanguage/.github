@@ -77,6 +77,15 @@ b = b + 1
 b = (b + 1) + 1
 b = (b + 1) + 1
 b = (b + 1) + 1
+...
+```
+
+Then, once you've obtained the amount of `b`'s that satisfy what `b`'s definition is. You must now expand however many instances of `b` appeared into the expression itself.<br>
+
+This particular case expands to:
+```apl
+We must then compute those b's, which is yet another disaster:
+
 b = (((b + 1) + 1) + 1) + 1
 
 b = (((b + 1) + 1) + 1) + 1
