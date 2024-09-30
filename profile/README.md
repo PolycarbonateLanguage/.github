@@ -57,7 +57,7 @@ let a(t) ->
 <br>
 
 <br><br>
-"Self ref" variables can be understood by this example:
+## "Self ref" variables can be understood by this example:
 we define b to be a variable bounded by 1.
 ```apl
 b = 1
