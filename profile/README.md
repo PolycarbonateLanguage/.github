@@ -40,7 +40,7 @@ A builtin function is allowed to check the type of this:<br>
 <br>
 
 ## Functions
-A function looks simple. it can start with any letter, and may take any amount of arguments (im not THAT evil...)
+A function looks simple. it can start with any letter, and may take any amount of arguments (im not THAT evil...). **Functions names can be only one letter**
 <br>
 <br>
 Consider a function a(t), which represents the equation of a standard parabola with no transformations applied on it:
@@ -53,6 +53,15 @@ let a(t) ->
 # Passing arguments is also simple:
 
 α = a(3) # α is binded by the value of 9.
+```
+
+Here's how integration could be defined using these facts:
+```apl
+f(t) ->
+    | r t^2
+
+i(x, n) ->
+    | r ((f(x) + f(x - 1/n)) / 2 * (1/n)) + i(x, n - 1))
 ```
 <br>
 
