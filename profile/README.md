@@ -27,8 +27,7 @@ and `2` being defined as:
 ```
 
 We then define both those 1's to be defined using our definition of `1` above.
-This definition is required to be written in order for the reader to understand the concept of recursion in this language.
-
+This definition is required to be written in order for the reader to understand the concept of self-ref variables.
 
 <br>
 
@@ -55,6 +54,42 @@ let a(t) ->
 
 α = a(3) # α is binded by the value of 9.
 ```
+<br>
+
+<br><br>
+"Self ref" variables can be understood by this example:
+we define b to be a variable bounded by 1.
+```apl
+b = 1
+```
+
+Now, to increment, a poor soul would do the following due to the lack of increment operators:
+```apl
+b = b + 1
+```
+
+This isn't doing what you expect it to do. What you instead wrote was:
+```apl
+b = 1
+b = b + 1
+
+b = (b + 1) + 1
+b = (b + 1) + 1
+b = (b + 1) + 1
+b = (((b + 1) + 1) + 1) + 1
+
+b = (((b + 1) + 1) + 1) + 1
+b = (((((b + 1) + 1) + 1) + 1) + 1)
+b = ((((((b + 1) + 1) + 1) + 1) + 1) + 1)
+b = (((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+b = ((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+b = (((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+b = ((((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+b = (((((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+b = ((((((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
+```
+
+How we approach "incrementing" a variable is unknown for now. Sorry!
 <br>
 
 ## As always, this isn't final.
