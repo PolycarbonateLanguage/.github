@@ -92,6 +92,6 @@ b = ((((((((((((b + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1) + 1)
 How we approach "incrementing" a variable is unknown for now. Sorry!
 <br>
 
-## As always, this isn't final.
-Just like nature, things change. With the speed in which these changes will (or will not) occur being unknown. Just like nature, that's the beauty of new languages, you never know what will succeed and what will fail. Hopefully, once I transfer from community college - I'd have met some other individuals who share
-a similar passion to this language, like I do.
+## As always, this isn't final
+Just like nature, things change. With the speed in which these changes will (or will not) occur being unknown. With nature, we define the beauty of languages as a half and half, with one half of a language being successful and the other half being a total failure. Both are okay! Hopefully, once I transfer from community college - I'd have met some other individuals who share
+a similar passion to this language, like I do. Do not expect the syntax to remain the same!
